@@ -1,0 +1,37 @@
+/* Asterisk for overriding browser default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: brown;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+#heading {
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    background-color: darkred;
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: brown;
+}
