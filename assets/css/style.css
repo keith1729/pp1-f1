@@ -14,24 +14,72 @@ body {
 
 /* Header */
 header {
-    background-color: brown;
-}
-
-h1 {
-    color: whitesmoke;
+    background-color: grey;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 2px 2px black;
+    z-index: 99;
+    padding: 1rem 1rem;
 }
 
 #heading {
     text-decoration: none;
 }
 
+h1 {
+    color: whitesmoke;
+    font-size: 275%;
+    padding: 1rem;
+}
+
+nav {
+    position: absolute;
+    background-color: grey;
+    top: 100%;
+    width: 100vw;
+    left: 0;
+    box-shadow: 0 2px 5px black;
+    display: none;
+    padding: 1rem;
+}
+
+#nav-menu {
+    font-size: 120%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+#nav-menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+.nav-toggle-label {
+    font-size: 120%;
+    padding-right: 1rem;
+}
+
+
 /* Main */
 main {
-    background-color: darkred;
+    background-color: brown;
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: brown;
+    background-color: whitesmoke;
 }
