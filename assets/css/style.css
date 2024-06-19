@@ -20,9 +20,9 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    box-shadow: 0 2px 2px black;
+    box-shadow: 0 1px 1px black;
     z-index: 99;
-    padding: 1rem 1rem;
+    padding: 0.25rem 1rem;
 }
 
 #heading {
@@ -41,7 +41,7 @@ nav {
     top: 100%;
     width: 100vw;
     left: 0;
-    box-shadow: 0 2px 5px black;
+    box-shadow: 0 1px 1px black;
     display: none;
     padding: 1rem;
 }
@@ -68,10 +68,13 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 120%;
+    font-size: 150%;
     padding-right: 1rem;
 }
 
+.active {
+    border-bottom: 1px solid whitesmoke;
+}
 
 /* Main */
 main {
@@ -81,8 +84,9 @@ main {
 
 /* Footer */
 footer {
-    background-color: whitesmoke;
+    background-color: grey;
     padding: 0.5rem;
+    box-shadow: 0 -1px 1px black;
 }
 
 #socials {
@@ -90,4 +94,8 @@ footer {
     justify-content: space-between;
     list-style-type: none;
     padding: 0.5rem 1rem;
+}
+
+#socials li a {
+    color: whitesmoke;
 }
