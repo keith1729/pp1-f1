@@ -18,7 +18,7 @@ header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     position: fixed;
     box-shadow: 0 1px 1px black;
     z-index: 99;
@@ -32,7 +32,7 @@ header {
 h1 {
     color: whitesmoke;
     font-size: 275%;
-    padding: 1rem;
+    padding: 0.25rem 0.5rem;
 }
 
 nav {
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 150%;
+    font-size: 200%;
     padding-right: 1rem;
 }
 
@@ -80,7 +80,7 @@ nav {
 main {
     background-color: brown;
     flex: 1 0 auto;
-    margin-top: 91px;
+    margin-top: 67px;
 }
 
 /* Footer */
