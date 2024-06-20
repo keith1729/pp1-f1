@@ -87,6 +87,7 @@ main {
     background-color: #2596be;
     flex: 1 0 auto;
     margin-top: 67px;
+    z-index: 1;
 }
 
 #hero-image {
@@ -112,7 +113,7 @@ main {
     background-color: rgba(42, 42, 42, 0.8);
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 15px;
     min-height: 50px;
     padding: 10px 20px;
     letter-spacing: 1.5px;
@@ -127,7 +128,7 @@ main {
 }
 
 #car-info h2 {
-    padding: 20px 0;
+    padding: 25px 10px 20px 0;
     text-decoration: underline;
     font-family: "merriweather", sans-serif;
     color: whitesmoke;
@@ -141,18 +142,38 @@ main {
 }
 
 .aero-chassis {
-
+    z-index: 2;
+    background-color: #2a2a2a;
+    width: 330px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
 }
 
 .pu {
-
+    z-index: 2;
+    background-color: #2a2a2a;
+    width: 330px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
 }
 
 .trans-tires {
-
+    z-index: 2;
+    background-color: #2a2a2a;
+    width: 330px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
 }
 .brakes-fuel {
-    
+    z-index: 2;
+    background-color: #2a2a2a;
+    width: 330px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
 }
 
 /* Gallery */
@@ -160,10 +181,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
 
 #gallery h2 {
-    color: whitesmoke;
+    color: brown;
     padding: 0.8rem 0;
     letter-spacing: 2px;
     text-decoration: underline;
@@ -171,9 +193,23 @@ main {
     font-family: "merriweather", sans-serif;
 }
 
+.photos {
+    padding: 15px 0;
+}
+
 .photos img {
     width: 100%;
-    column-gap: 0;
+}
+
+.team-title {
+    z-index: 2;
+    background-color: #2a2a2a;
+    width: 330px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
