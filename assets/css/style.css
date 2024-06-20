@@ -1,3 +1,6 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
 /* Asterisk for overriding browser default styles */
 * {
     padding: 0;
@@ -33,6 +36,8 @@ h1 {
     color: whitesmoke;
     font-size: 275%;
     padding: 0.25rem 0.5rem;
+    font-family: "merriweather", sans-serif;
+    letter-spacing: 0.2rem;
 }
 
 nav {
@@ -63,13 +68,13 @@ nav {
     display: none;
 }
 
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
 .nav-toggle-label {
     font-size: 200%;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
     color: whitesmoke;
 }
 
@@ -79,7 +84,7 @@ nav {
 
 /* Main */
 main {
-    background-color: brown;
+    background-color: #2596be;
     flex: 1 0 auto;
     margin-top: 67px;
 }
@@ -87,32 +92,67 @@ main {
 #hero-image {
     background: url(../images/hero_image.jpg) no-repeat center center/cover;
     position: relative;
-    height: 600px;
+    height: 650px;
     width: 100%;
 }
 
 #hero-text h2 {
     background-color: rgba(42, 42, 42, 0.8);
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 10px;
     min-height: 50px;
     padding: 10px 20px;
     letter-spacing: 1.5px;
+    font-family: "merriweather", sans-serif;
+    color: whitesmoke;
 }
 
 #hero-text1 h2 {
     background-color: rgba(42, 42, 42, 0.8);
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 20px;
     min-height: 50px;
     padding: 10px 20px;
     letter-spacing: 1.5px;
+    font-family: "merriweather", sans-serif;
+    color: whitesmoke;
 }
 
-h2 {
+#car-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#car-info h2 {
+    padding: 20px 0;
+    text-decoration: underline;
+    font-family: "merriweather", sans-serif;
     color: whitesmoke;
+}
+
+#car-info p {
+    text-align: left;
+    padding: 0.5rem 1rem;
+    font-family: "source serif 4", sans-serif;
+    line-height: 1rem;
+}
+
+.aero-chassis {
+
+}
+
+.pu {
+
+}
+
+.trans-tires {
+
+}
+.brakes-fuel {
+    
 }
 
 /* Gallery */
@@ -128,6 +168,7 @@ h2 {
     letter-spacing: 2px;
     text-decoration: underline;
     font-size: 200%;
+    font-family: "merriweather", sans-serif;
 }
 
 .photos img {
@@ -149,6 +190,7 @@ footer p {
     align-self: center;
     padding-bottom: 0.5rem;
     color: whitesmoke;
+    font-family: "source serif 4", sans-serif;
 }
 
 #socials {
