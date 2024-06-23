@@ -34,10 +34,10 @@ header {
 
 h1 {
     color: whitesmoke;
-    font-size: 275%;
+    font-size: 250%;
     padding: 0.25rem 0.5rem;
     font-family: "merriweather", sans-serif;
-    letter-spacing: 0.2rem;
+    
 }
 
 nav {
@@ -48,7 +48,7 @@ nav {
     left: 0;
     box-shadow: 0 1px 1px black;
     display: none;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 
 #nav-menu {
@@ -56,7 +56,6 @@ nav {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 0 0.5rem;
 }
 
 #nav-menu li a {
@@ -74,7 +73,6 @@ nav {
 
 .nav-toggle-label {
     font-size: 200%;
-    padding-right: 0.5rem;
     color: whitesmoke;
 }
 
@@ -84,7 +82,7 @@ nav {
 
 /* Main */
 main {
-    background-color: #2596be;
+    background-color: darkred;
     flex: 1 0 auto;
     margin-top: 67px;
     z-index: 1;
@@ -104,7 +102,7 @@ main {
     right: 10px;
     min-height: 50px;
     padding: 10px 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     font-family: "merriweather", sans-serif;
     color: whitesmoke;
 }
@@ -116,7 +114,7 @@ main {
     left: 15px;
     min-height: 50px;
     padding: 10px 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     font-family: "merriweather", sans-serif;
     color: whitesmoke;
 }
@@ -141,33 +139,7 @@ main {
     line-height: 1rem;
 }
 
-.aero-chassis {
-    z-index: 2;
-    background-color: #2a2a2a;
-    width: 330px;
-    border-radius: 5px;
-    color: whitesmoke;
-    box-shadow: 3px 3px 3px black;
-}
-
-.pu {
-    z-index: 2;
-    background-color: #2a2a2a;
-    width: 330px;
-    border-radius: 5px;
-    color: whitesmoke;
-    box-shadow: 3px 3px 3px black;
-}
-
-.trans-tires {
-    z-index: 2;
-    background-color: #2a2a2a;
-    width: 330px;
-    border-radius: 5px;
-    color: whitesmoke;
-    box-shadow: 3px 3px 3px black;
-}
-.brakes-fuel {
+.tech {
     z-index: 2;
     background-color: #2a2a2a;
     width: 330px;
@@ -181,20 +153,22 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #gallery h2 {
-    color: brown;
+    color: whitesmoke;
     padding: 0.8rem 0;
     letter-spacing: 2px;
     text-decoration: underline;
-    font-size: 200%;
+    /*font-size: 200%;*/
     font-family: "merriweather", sans-serif;
 }
 
 .photos {
     padding: 15px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .photos img {
@@ -204,7 +178,7 @@ main {
 .team-title {
     z-index: 2;
     background-color: #2a2a2a;
-    width: 330px;
+    width: 250px;
     border-radius: 5px;
     color: whitesmoke;
     box-shadow: 3px 3px 3px black;
