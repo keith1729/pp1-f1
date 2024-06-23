@@ -186,6 +186,18 @@ main {
     justify-content: center;
 }
 
+/*Fan Zone*/
+.fan {
+    z-index: 2;
+    background-color: #2a2a2a;
+    width: 250px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     background-color: #2a2a2a;
