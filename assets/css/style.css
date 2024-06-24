@@ -136,13 +136,13 @@ main {
     text-align: left;
     padding: 0.5rem 1rem;
     font-family: "source serif 4", sans-serif;
-    line-height: 1rem;
+    line-height: 1.25;
 }
 
 .tech {
     z-index: 2;
     background-color: #2a2a2a;
-    width: 330px;
+    width: 90vw;
     border-radius: 5px;
     color: whitesmoke;
     box-shadow: 3px 3px 3px black;
@@ -247,4 +247,82 @@ footer p {
 
 #socials li a {
     color: whitesmoke;
+}
+
+/* Media query: tablets and larger (768px and higher) */
+@media screen and (min-width: 768px) {
+    /*Header*/
+    #heading {
+        font-size: 150%;
+        padding: 0 1rem;
+    }
+    .nav-toggle-label {
+        font-size: 250%;
+        padding: 0 1rem;
+    }
+    nav {
+        padding: 1.5rem;
+    }
+    #nav-menu li a {
+        font-size: 1.5rem;
+        padding: 1rem 1.5rem;
+    }
+    main {
+        margin-top: 92px;
+    }
+    #gallery h2 {
+        font-size: 200%;
+    }
+    #socials {
+        font-size: 120%;
+        padding: 0.5rem 2rem;
+    }
+    #car-info p {
+        line-height: 1.5;
+    }
+    #form {
+        position: relative;
+        left: 75px;
+        bottom: 110px;
+        width: 60vw;
+        font-size: 110%;
+    }
+}
+
+/* Media query: laptops and larger (1024px and higher) */
+@media screen and (min-width: 1024px) {
+    #hero-text h2, #hero-text1 h2 {
+        font-size: 200%;
+    }
+    #car-info h2 {
+        font-size: 200%;
+    }
+    .nav-toggle-label {
+        padding-right: 2rem;
+    }
+    .tech {
+        width: 80vw;
+    }
+    #fan-zone {
+        height: 100vh;
+    }
+    #form {
+        width: 50vw;
+        position: relative;
+        left: 140px;
+        bottom: 18%;
+        font-size: 120%;
+    }
+    .photos {
+        display: block;
+        column-count: 3;
+        column-gap: 0;
+    }
+    #socials {
+        font-size: 150%;
+        padding: 0.5rem 3rem;
+    }
+    footer p {
+        font-size: 100%;
+    }
 }
