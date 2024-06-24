@@ -326,3 +326,11 @@ footer p {
         font-size: 100%;
     }
 }
+
+/* Media query: large laptops and desktop (1200px and higher) */
+@media screen and (min-width: 1200px) {
+    #fan-zone {
+        background-size: 50%;
+        padding: 10% 15%;
+    }
+}
