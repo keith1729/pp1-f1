@@ -171,3 +171,44 @@ Cascading Style Sheets is a language designed to simplify the process of making 
 
 ## 4. Testing
 
+### Validation
+
+- HTML has been validated by W3C Markup Validation Service
+
+<div align="center">
+  <img src="assets/images/readme/w3c_html_validator.png" alt="HTML Validation">
+</div>
+
+- CSS has been validated by W3C CSS Validation Service
+
+<div align="center">
+  <img src="assets/images/readme/w3c_css_validator.png" alt="CSS Validation">
+</div>
+
+### General Testing
+
+- All external links open in a new tab
+- Internal navbar links open properly 
+- Form was tested and works properly
+- All features were tested on live website
+
+### Bug Fixing
+
+- The websites url was checked by W3C Link Checker and recommended two links were checked manually, these were checked on the live site and worked correctly.
+
+<div align="center">
+  <img src="assets/images/readme/link_checker.png" alt="Link Checker">
+</div>
+
+## 5. Deployment
+
+- The website was deployed on github-pages
+
+<div align="center">
+  <img src="assets/images/readme/deployment.png" alt="Deployment">
+</div>
+
+## 6. Credits
+
+- All images were taken from the Pexels free library
+- All text was generated with Chat gpt4
