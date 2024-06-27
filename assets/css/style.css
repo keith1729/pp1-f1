@@ -1,5 +1,5 @@
-/* Import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+/* Import google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk for overriding browser default styles */
 * {
@@ -36,7 +36,7 @@ h1 {
     color: whitesmoke;
     font-size: 250%;
     padding: 0.25rem 0.5rem;
-    font-family: "merriweather", sans-serif;
+    font-family: "open sans", sans-serif;
 
 }
 
@@ -77,12 +77,12 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid #f5f5f5;
 }
 
 /* Main */
 main {
-    background-color: darkred;
+    background-color: #8b0000;
     flex: 1 0 auto;
     margin-top: 67px;
     z-index: 1;
@@ -102,8 +102,8 @@ main {
     right: 10px;
     min-height: 50px;
     padding: 10px 20px;
-    letter-spacing: 1px;
-    font-family: "merriweather", sans-serif;
+    letter-spacing: 0.75px;
+    font-family: "open sans", sans-serif;
     color: whitesmoke;
 }
 
@@ -114,8 +114,8 @@ main {
     left: 15px;
     min-height: 50px;
     padding: 10px 20px;
-    letter-spacing: 1px;
-    font-family: "merriweather", sans-serif;
+    letter-spacing: 0.75px;
+    font-family: "open sans", sans-serif;
     color: whitesmoke;
 }
 
@@ -128,14 +128,14 @@ main {
 #car-info h2 {
     padding: 25px 10px 20px 0;
     text-decoration: underline;
-    font-family: "merriweather", sans-serif;
+    font-family: "open sans", sans-serif;
     color: whitesmoke;
 }
 
 #car-info p {
     text-align: left;
     padding: 0.5rem 1rem;
-    font-family: "source serif 4", sans-serif;
+    font-family: "roboto", sans-serif;
     line-height: 1.25;
 }
 
@@ -159,9 +159,9 @@ main {
 #gallery h2 {
     color: whitesmoke;
     padding: 0.8rem 0;
-    letter-spacing: 2px;
+    letter-spacing: 0.75px;
     text-decoration: underline;
-    font-family: "merriweather", sans-serif;
+    font-family: "open sans", sans-serif;
 }
 
 .photos {
@@ -235,7 +235,7 @@ footer p {
     align-self: center;
     padding-bottom: 0.5rem;
     color: whitesmoke;
-    font-family: "source serif 4", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 #socials {
