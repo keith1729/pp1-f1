@@ -40,6 +40,7 @@ h1 {
 
 }
 
+/* Navbar */
 nav {
     position: absolute;
     background-color: #2a2a2a;
@@ -88,6 +89,7 @@ main {
     z-index: 1;
 }
 
+/* Hero image */
 #hero-image {
     background: url(../images/hero_image.jpg) no-repeat center center/cover;
     position: relative;
@@ -119,6 +121,7 @@ main {
     color: whitesmoke;
 }
 
+/* Car Information */
 #car-info {
     display: flex;
     flex-direction: column;
